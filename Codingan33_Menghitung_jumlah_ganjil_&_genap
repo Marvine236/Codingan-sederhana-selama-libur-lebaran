@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int n,g=0,e=0,x;
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        scanf("%d",&x);
+        if(x%2==0) e++;
+        else g++;
+    }
+    printf("Genap=%d Ganjil=%d",e,g);
+}
