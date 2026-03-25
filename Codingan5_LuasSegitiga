@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+    float a,t;
+    scanf("%f %f",&a,&t);
+    printf("%.2f",0.5*a*t);
+}
