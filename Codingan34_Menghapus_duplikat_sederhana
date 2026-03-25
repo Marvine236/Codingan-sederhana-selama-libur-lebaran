@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int a[5]={1,2,2,3,3};
+    for(int i=0;i<5;i++){
+        int unik=1;
+        for(int j=0;j<i;j++)
+            if(a[i]==a[j]) unik=0;
+        if(unik) printf("%d ",a[i]);
+    }
+}
